@@ -11,68 +11,64 @@
 
 <body>
     <div class="container">
+        <nav class="navbar mb-5 navbar-expand-lg navbar navbar-light" style="background-color:#D9B3FF"">
+            <div class=" container-fluid">
+            <a class="navbar-brand" href="#">Aplicacion de pruevas de color</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    </div>
+    </div>
+    </nav>
 
 
-
-        <nav class="navbar mb-3 navbar-expand-lg navbar navbar-light" style="background-color:#D9B3FF"">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Aplicacion de pruevas de color</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>                   
-                </div>
-            </div>
-        </nav>
-
-        
-        <h1 class="text-center">Selector de Color RGB</h1>
-        <div class="row mt-4">
-            <div class="col-md-6 offset-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <div id="color-box" class="mb-3"></div>
-                        <!-- Input de tipo color -->
-                        <div class="mb-3">
-                            <label for="color-picker" class="form-label">Selecciona un color</label>
-                            <input type="color" class="form-control form-control-color" id="color-picker"
-                                value="#000000">
-                        </div>
-                        <div class="mb-3">
-                            <label for="red" class="form-label">Rojo</label>
-                            <input type="range" class="form-range" id="red" min="0" max="255" value="0">
-                            <input type="number" class="form-control mt-2" id="red-input" min="0" max="255" value="0">
-                        </div>
-                        <div class="mb-3">
-                            <label for="green" class="form-label">Verde</label>
-                            <input type="range" class="form-range" id="green" min="0" max="255" value="0">
-                            <input type="number" class="form-control mt-2" id="green-input" min="0" max="255" value="0">
-                        </div>
-                        <div class="mb-3">
-                            <label for="blue" class="form-label">Azul</label>
-                            <input type="range" class="form-range" id="blue" min="0" max="255" value="0">
-                            <input type="number" class="form-control mt-2" id="blue-input" min="0" max="255" value="0">
-                        </div>
-                        <div class="mb-3">
-                            <label for="hex-code" class="form-label">Código Hexadecimal</label>
-                            <input type="text" class="form-control" id="hex-code" readonly>
-                        </div>
+    <h1 class="text-center">Selector de Color RGB</h1>
+    <div class="row mt-4">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <div id="color-box" class="mb-3"></div>
+                    <!-- Input de tipo color -->
+                    <div class="mb-3">
+                        <label for="color-picker" class="form-label">Selecciona un color</label>
+                        <input type="color" class="form-control form-control-color" id="color-picker" value="#000000">
+                    </div>
+                    <div class="mb-3">
+                        <label for="red" class="form-label">Rojo</label>
+                        <input type="range" class="form-range" id="red" min="0" max="255" value="0">
+                        <input type="number" class="form-control mt-2" id="red-input" min="0" max="255" value="0">
+                    </div>
+                    <div class="mb-3">
+                        <label for="green" class="form-label">Verde</label>
+                        <input type="range" class="form-range" id="green" min="0" max="255" value="0">
+                        <input type="number" class="form-control mt-2" id="green-input" min="0" max="255" value="0">
+                    </div>
+                    <div class="mb-3">
+                        <label for="blue" class="form-label">Azul</label>
+                        <input type="range" class="form-range" id="blue" min="0" max="255" value="0">
+                        <input type="number" class="form-control mt-2" id="blue-input" min="0" max="255" value="0">
+                    </div>
+                    <div class="mb-3">
+                        <label for="hex-code" class="form-label">Código Hexadecimal</label>
+                        <input type="text" class="form-control" id="hex-code" readonly>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="footer mt-auto py-3 bg-light">
-            <div class="container">
-                <div class="text-center">
-                    <p class="mb-0">&copy; 2025 Todos los derechos reservados. | Luis Tolentino</p>
-                    
-                </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Todos los derechos reservados. | Luis Tolentino</p>
+
             </div>
-        </footer>
+        </div>
+    </footer>
 
     </div>
-    
+
     <script src="./js/main.js"></script>
 </body>
 
